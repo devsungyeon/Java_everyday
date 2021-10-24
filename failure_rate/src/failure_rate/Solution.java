@@ -19,7 +19,7 @@ public class Solution {
 		
         for(int i = 0 ; i< stageCount.length;i++ ) {
         	if(total == 0) {
-        		failPercent.put(0, 0d);
+        		failPercent.put(i, 0d);
         		continue;
         	}
         	failPercent.put(i, (double)stageCount[i] / (double)total);
